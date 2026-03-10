@@ -11,7 +11,7 @@ skills as (
 )
 
 select
-    cast(md5(job_link) as string) as job_id,
+    to_hex(md5(job_link)) as job_id,
     trim(skill) as skill,
     job_link
 from skills,
