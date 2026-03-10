@@ -3,15 +3,25 @@ with int_jobs as (
     from {{ ref('int_job') }}
 ),
 
+dim_jobs as (
+    select
+        row_number() over(order by job_link) as job_id_int,  -- dim ile aynı sırada
+        job_link
+    from {{ ref('int_job') }}
+),
+
 skills as (
     select
-        job_link,
-        split(skills_raw, ',') as skills_array
-    from int_jobs
+        j.job_id_int,
+        i.job_link,
+        split(i.skills_raw, ',') as skills_array
+    from int_jobs i
+    left join dim_jobs j
+        on i.job_link = j.job_link
 )
 
 select
-    to_hex(md5(job_link)) as job_id,
+    job_id_int,
     trim(skill) as skill,
     job_link
 from skills,
