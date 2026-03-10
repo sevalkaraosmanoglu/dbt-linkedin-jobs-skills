@@ -6,7 +6,7 @@ with int_jobs as (
 )
 
 select
-    md5(job_link) as job_id,
+    cast(md5(job_link) as string) as job_id,
     job_link,
     job_title,
     company,
