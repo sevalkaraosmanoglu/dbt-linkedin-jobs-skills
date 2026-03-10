@@ -11,7 +11,8 @@ skills as (
 )
 
 select
-    md5(job_link) as job_id,
-    skill
+    cast(md5(job_link) as string) as job_id,
+    trim(skill) as skill,
+    job_link
 from skills,
 unnest(skills_array) as skill
