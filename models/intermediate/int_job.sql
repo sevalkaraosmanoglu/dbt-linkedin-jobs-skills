@@ -28,7 +28,7 @@ select
     p.got_summary,
     p.got_ner,
     p.is_being_worked,
-    s.skills_raw,       -- temizlenmiş skills string
+    s.job_skill,       -- temizlenmiş skills string
     sm.job_summary_clean
 from posting p
 left join skills s on p.job_link = s.job_link

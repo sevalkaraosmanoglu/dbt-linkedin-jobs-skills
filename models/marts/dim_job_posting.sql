@@ -1,9 +1,6 @@
-with int_jobs as (
-    select *
-    from {{ ref('int_job') }}
-)
+-- dim_job_posting.sql
 select
-    row_number() over(order by job_link) as job_id_int,  -- sıralamayı sabitle
+    row_number() over(order by job_link) as job_id_int,
     job_link,
     job_title,
     company,
@@ -15,4 +12,4 @@ select
     search_position,
     first_seen,
     last_processed_time
-from int_jobs
+from {{ ref('int_job') }}
