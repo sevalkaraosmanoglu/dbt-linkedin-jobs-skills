@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  -name:linkedin
-   database:linkedin-jobs-skills-489707
-   schema:linkedin_jobs_skills
-   tables:
-    -name:job_posting
-    -name:job_summary
-    -name:job_skills
+  - name: linkedin
+    database: linkedin-jobs-skills-489707
+    schema: linkedin_jobs_skills
+    tables:
+      - name: job_posting
+      - name: job_summary
+      - name: job_skills
