@@ -25,7 +25,7 @@ Bu proje LinkedIn veri seti üzerinden iş ilanları ve yetenekleri analiz etmey
 ![Power BI Dashboard](power_bi/screenshots/2.png)
 ![Power BI Dashboard](power_bi/screenshots/3.png)
 ![Power BI Dashboard](power_bi/screenshots/4.png)
-![Power BI Dashboard](power_bi/screenshots/5.1. png)
+![Power BI Dashboard](power_bi/screenshots/5.1.png)
 ![Power BI Dashboard](power_bi/screenshots/5.2.png)
 ![Power BI Dashboard](power_bi/screenshots/6.1.png)
 ![Power BI Dashboard](power_bi/screenshots/6.2.png)
