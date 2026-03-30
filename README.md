@@ -19,6 +19,7 @@ Bu proje LinkedIn veri seti üzerinden iş ilanları ve yetenekleri analiz etmey
 - Power BI
 
 ## Ekran Görüntüleri
+![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/1.png)
 
 ### Power BI Dashboard – Genel Görünüm
 ![Power BI 1](power_bi/screenshots/1.png)
