@@ -20,17 +20,17 @@ Bu proje LinkedIn veri seti üzerinden iş ilanları ve yetenekleri analiz etmey
 
 ## Ekran Görüntüleri
 
-### Power BI Dashboard
-![Power BI Dashboard](power_bi/screenshots/1.png)
-![Power BI Dashboard](power_bi/screenshots/2.png)
-![Power BI Dashboard](power_bi/screenshots/3.png)
-![Power BI Dashboard](power_bi/screenshots/4.png)
-![Power BI Dashboard](power_bi/screenshots/5.1.png)
-![Power BI Dashboard](power_bi/screenshots/5.2.png)
-![Power BI Dashboard](power_bi/screenshots/6.1.png)
-![Power BI Dashboard](power_bi/screenshots/6.2.png)
+### Power BI Dashboard – Genel Görünüm
+![Power BI 1](power_bi/screenshots/1.png)
+![Power BI 2](power_bi/screenshots/2.png)
+![Power BI 3](power_bi/screenshots/3.png)
+![Power BI 4](power_bi/screenshots/4.png)
 
-
+### Power BI Dashboard – Detaylı Görseller
+![Power BI 5.1](power_bi/screenshots/5.1.png)
+![Power BI 5.2](power_bi/screenshots/5.2.png)
+![Power BI 6.1](power_bi/screenshots/6.1.png)
+![Power BI 6.2](power_bi/screenshots/6.2.png)
 
 ### Skill Tahmin Modeli
 ![Skill Prediction](power_bi/screenshots/7.png)
