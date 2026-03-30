@@ -14,11 +14,22 @@ Bu proje LinkedIn veri seti üzerinden iş ilanları ve yetenekleri analiz etmey
    - Analiz sonuçları dashboard ve grafiklerle görselleştirildi.
 
 ## Teknolojiler ve Araçlar
+- Big Query
 - Python, Pandas, scikit-learn
 - DBT
 - Power BI
 
-## Power BI Screenshots
+## DBT Model Yapısı
+
+- **staging**  
+  - Ham LinkedIn verilerinin temizlenmesi
+- **intermediate**  
+  - Rol–skill ilişkilerinin oluşturulması
+- **marts**  
+  - Power BI ve analizler için feature tabloları
+  - Lineer regresyon modeli için feature table
+
+## Power BI Ekran Görüntüleri
 ![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/1.png)
 ![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/2.png)
 ![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/3.png)
@@ -28,7 +39,12 @@ Bu proje LinkedIn veri seti üzerinden iş ilanları ve yetenekleri analiz etmey
 ![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/6.1.png)
 ![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/6.2.png)
 
-
-
 ### Skill Tahmin Modeli
 ![Power BI 1](https://github.com/sevalkaraosmanoglu/dbt-linkedin-jobs-skills/blob/main/power_bi/7.png)
+
+## Proje Çıktıları
+
+- DBT ile katmanlı veri modelleme
+- Power BI ile iş odaklı dashboard tasarımı
+- Lineer regresyon ile skill tahmin modeli
+- Gerçek iş ilanı verisi ile uçtan uca analiz
